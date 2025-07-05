@@ -169,3 +169,21 @@ export const techStackIcons = [
     rotation: [0, 0, 0],
   },
 ];
+
+export const socialImgs = [
+  {
+    name: "github",
+    url: "https://github.com/Fahad6160",
+    imgPath: "/images/github.png",
+  },
+  {
+    name: "gmail",
+    url: "fahadshaikh6160@gmail.com",
+    imgPath: "/images/gmail.png",
+  },
+  {
+    name: "linkedin",
+    url: "https://www.linkedin.com/in/fahad6160",
+    imgPath: "/images/linkedin.png",
+  },
+];
