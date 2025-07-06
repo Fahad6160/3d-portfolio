@@ -1,6 +1,7 @@
 import { OrbitControls, Float } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import Earth from "./Earth";
+import Particles from "../../HeroModels/Particles";
 
 const ContactExperience = () => {
   return (
@@ -24,6 +25,8 @@ const ContactExperience = () => {
                 <meshStandardMaterial color="#000" />
                 </mesh>
             </group>
+
+            <Particles count={100} />
 
             <Float speed={5.5} rotationIntensity={0.5} floatIntensity={0.9}>
                 <group scale={2.5} position={[0, 0, 0]} castShadow>
