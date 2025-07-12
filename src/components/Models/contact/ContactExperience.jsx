@@ -26,7 +26,7 @@ const ContactExperience = () => {
                 </mesh>
             </group>
 
-            <Particles count={100} />
+            <Particles count={80} />
 
             <Float speed={5.5} rotationIntensity={0.5} floatIntensity={0.9}>
                 <group scale={2.5} position={[0, 0, 0]} castShadow>

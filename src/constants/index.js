@@ -13,6 +13,66 @@ export const navLinks = [
   },
 ];
 
+export const techStack = [
+  {
+    name: "React.js",
+    logo: "/images/logos/react-native.png"
+  },
+  {
+    name: "Node.js",
+    logo: "/images/logos/node.png"
+  },
+  {
+    name: "JavaScript",
+    logo: "/images/logos/javascript.png"
+  },
+  {
+    name: "Python",
+    logo: "/images/logos/python.png"
+  },
+  {
+    name: "Tailwind",
+    logo: "/images/logos/tailwind.png"
+  },
+  {
+    name: "AWS",
+    logo: "/images/logos/aws.png"
+  },
+  {
+    name: "GitHub",
+    logo: "/images/logos/github.png"
+  },
+  {
+    name: "MongoDB",
+    logo: "/images/logos/mongo-db.png"
+  },
+  {
+    name: "HTML",
+    logo: "/images/logos/html.png"
+  },
+  {
+    name: "CSS",
+    logo: "/images/logos/css.png"
+  },
+  {
+    name: "Express.js",
+    logo: "/images/logos/express.png"
+  },
+  {
+    name: "Vite",
+    logo: "/images/logos/vite.png"
+  },
+  {
+    name: "Firebase",
+    logo: "/images/logos/firebase.png"
+  },
+  {
+    name: "Figma",
+    logo: "/images/logos/figma.png"
+  }
+];
+
+
 export const words = [
     {text: 'Ideas', imgPath: '/images/ideas.svg'},
     {text: 'Concepts', imgPath: '/images/concepts.svg'},
