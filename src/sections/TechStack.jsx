@@ -7,7 +7,7 @@ import {ScrollTrigger} from 'gsap/ScrollTrigger'
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Techstack = () => {
+const TechStack = () => {
   useGSAP(()=>{
     gsap.fromTo('.tech-card', 
         {
@@ -54,4 +54,4 @@ const Techstack = () => {
   )
 }
 
-export default Techstack
+export default TechStack

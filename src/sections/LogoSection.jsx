@@ -1,9 +1,10 @@
-import {logoIconsList} from '../constants/index.js'
+import {logoIconsList, techStack} from '../constants/index.js'
 
 const LogoIcon = ({icon})=>{
     return (
-        <div className='flex-none flex-center marquee-item'>
-            <img src={icon.imgPath} alt={icon.name} />
+        <div className='flex-none flex-center gap-3 marquee-item'>
+            <img className='' src={icon.logo} alt={icon.name} />
+            <h1 className='text-bold text-3xl text-[#858fad]'>{icon.name}</h1>
         </div>
     )
 }
@@ -16,11 +17,11 @@ const LogoSection = () => {
 
         <div className="marquee h-52">
             <div className='marquee-box md:gap-12 gap-5'>
-                {logoIconsList.map((icon)=>(
-                    <LogoIcon key={icon.name} icon={icon} />
+                {techStack.map((tech, i)=>(
+                    <LogoIcon key={tech.name} icon={tech} />
                 ))}
-                {logoIconsList.map((icon)=>(
-                    <LogoIcon key={icon.name} icon={icon} />
+                {techStack.map((tech, i)=>(
+                    <LogoIcon key={tech.name} icon={tech} />
                 ))}
             </div>
         </div>
