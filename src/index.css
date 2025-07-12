@@ -235,7 +235,7 @@ section {
   }
 
   .marquee-item {
-    @apply md:w-40 w-32;
+    @apply md:w-40 w-50;
   }
 
   .timeline-wrapper {

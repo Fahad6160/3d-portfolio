@@ -67,7 +67,7 @@ const ShowcaseSection = () => {
                         </div>
                         <div className="flex justify-between items-center">
                             <h2>Monster Energy Website</h2>
-                            <h2 className="md:text-lg font-medium"><a className="hover:text-white-50 text-white transition-all ml-1 md:ml-2" href="https://monster-energy-39bla3rpe-fahad-shaikhs-projects-d492f279.vercel.app/" target="_blank">Click to View</a></h2>
+                            <h2 className="md:text-lg font-medium"><a className="hover:text-white-50 text-white transition-all ml-1 md:ml-2" href="https://monster-energy-mauve.vercel.app/" target="_blank">Click to View</a></h2>
                         </div>
                     </div>
 
@@ -77,7 +77,7 @@ const ShowcaseSection = () => {
                         </div>
                         <div className="flex justify-between items-center">
                             <h2>VueLamp UI</h2>
-                            <h2 className="md:text-lg font-medium"><a className="hover:text-white-50 text-white transition-all ml-1 md:ml-2" href="https://lamp-ui-website-8898pudm9-fahad-shaikhs-projects-d492f279.vercel.app/" target="_blank">Click to View</a></h2>
+                            <h2 className="md:text-lg font-medium"><a className="hover:text-white-50 text-white transition-all ml-1 md:ml-2" href="https://lamp-ui-website.vercel.app/" target="_blank">Click to View</a></h2>
                         </div>
                     </div>
                 </div>
